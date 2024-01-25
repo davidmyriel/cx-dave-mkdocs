@@ -1,1 +1,43 @@
-site_name: My Docs
+site_name: CX Dave MkDocs
+nav:
+  - Home: index.md
+  - Start Here:
+      - What is Coralogix?: intro/page1.md
+      - Get Started: intro/page2.md
+  - Application Performance Monitoring:
+      - APM General Concepts: apm/page1.md
+  - Real User Monitoring:
+      - RUM General Concepts: rum/page1.md
+      - RUM Feature One: rum/page2.md     
+  - Integrations:
+      - AWS Integrations: integrations/page1.md
+  - Coralogix SDKs:
+      - Python SDK: sdk/python.md
+theme: 
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - toc.follow
+    - toc.integrate 
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+        primary: black
+        accent: indigo
+    - scheme: slate
+      toggle: 
+        icon: material/toggle-switch
+        name: Switch to light mode
+        primary: indigo
+        accent: indigo
