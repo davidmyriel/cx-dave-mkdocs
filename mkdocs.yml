@@ -1,9 +1,12 @@
-site_name: CX Dave MkDocs
+site_name: Coralogix Developer Portal
 nav:
   - Home: index.md
   - Start Here:
       - What is Coralogix?: intro/page1.md
       - Get Started: intro/page2.md
+  - 'Start Here':
+      - 'What is Coralogix?': 'intro/page1.md'
+      - 'Get Started': 'intro/page2.md'
   - Application Performance Monitoring:
       - APM General Concepts: apm/page1.md
   - Real User Monitoring:
@@ -13,31 +16,33 @@ nav:
       - AWS Integrations: integrations/page1.md
   - Coralogix SDKs:
       - Python SDK: sdk/python.md
+  
 theme: 
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    # - navigation.tabs
+    # - navigation.sections
+    - navigation.path
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - toc.follow
-    - toc.integrate 
+    # - toc.follow
+    # - toc.integrate 
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-        primary: black
-        accent: indigo
     - scheme: slate
+      primary: black
+      accent: deep green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: default
+      primary: green
+      accent: deep green
       toggle: 
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
-        primary: indigo
-        accent: indigo
