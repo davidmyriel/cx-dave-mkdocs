@@ -29,7 +29,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    # - toc.follow
+    - toc.follow
     # - toc.integrate 
   language: en
   palette:
