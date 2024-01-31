@@ -35,14 +35,14 @@ theme:
   palette:
     - scheme: slate
       primary: black
-      accent: deep green
+      accent: deep blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
     - scheme: default
       primary: green
-      accent: deep green
+      accent: deep blue
       toggle: 
         icon: material/weather-sunny
         name: Switch to light mode
