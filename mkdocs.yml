@@ -1,26 +1,75 @@
 site_name: Coralogix Developer Portal
+repo_url: https://github.com/davidmyriel/cx-dave-mkdocs
+repo_name: davidmyriel/cx-dave-mkdocs
 nav:
-  - Home: index.md
-  - Start Here:
-      - What is Coralogix?: intro/page1.md
-      - Get Started: intro/page2.md
-  - 'Start Here':
-      - 'What is Coralogix?': 'intro/page1.md'
-      - 'Get Started': 'intro/page2.md'
-  - Application Performance Monitoring:
-      - APM General Concepts: apm/page1.md
-  - Real User Monitoring:
-      - RUM General Concepts: rum/page1.md
-      - RUM Feature One: rum/page2.md     
-  - Integrations:
-      - AWS Integrations: integrations/page1.md
-  - Coralogix SDKs:
-      - Python SDK: sdk/python.md
-  
+  - Coralogix User Guide: 
+      - index.md
+      - Getting Started: 
+        - getting-started/index.md
+        - Key Features: getting-started/page1.md
+        - Coralogix Endpoints: getting-started/page2.md
+      - Send Data to Coralogix: 
+        - getting-started/index.md
+      - Monitor Your Data: 
+        - Application Performance Monitoring: 
+          - features/apm/page1.md
+        - Real User Monitoring: 
+           - features/rum/page1.md
+      - Transform Data: 
+           - changelog/index.md 
+      - Visualize Data: 
+           - changelog/index.md 
+      - Data Insights: 
+           - changelog/index.md 
+      - Security & Alerts: 
+           - changelog/index.md 
+      - Administration:
+           - features/administration/teams.md 
+      - Changelog: 
+        - changelog/index.md 
+  - API & SDK Reference: 
+    - reference/index.md
+    - Data Ingestion API:
+        - reference/api/api-rest-singles.md
+        - reference/api/api-rest-bulk.md
+    - Data Query API: https://heroic-travesseiro-698280.netlify.app/
+    - Data Management API: 
+        - reference/api/api-grpc-incidents.md
+    - Python SDK: 
+        - reference/sdk/python.md
+  - Configuration Tools: 
+    - Terraform: 
+        - config-tools/terraform-provider.md
+    - Kubernetes & Helm: 
+        - config-tools/helm-kubernetes.md
+  - Product Integrations: 
+      - Google Cloud Platform: 
+        - integrations/gcp/gcp0.md
+        - integrations/gcp/gcp1.md
+        - integrations/gcp/gcp2.md
+      - Amazon Web Services: 
+        - integrations/aws/aws1.md
+        - integrations/aws/aws2.md
+      - Microsoft Azure: 
+        - integrations/azure/azure1.md
+        - integrations/azure/azure2.md
+      - OpenTelemetry:
+        - integrations/open-telemetry/open-telemetry1.md
+      - Prometheus:
+        - integrations/prometheus/prometheus1.md
+
+plugins:
+  - search
+  - open-in-new-tab
+  - glightbox
+
 theme: 
   name: material
   features:
-    # - navigation.tabs
+    - content.action.edit
+    - content.code.copy
+    - navigation.indexes
+    - navigation.tabs
     # - navigation.sections
     - navigation.path
     - navigation.top
@@ -32,6 +81,16 @@ theme:
     - toc.follow
     # - toc.integrate 
   language: en
+  markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - attr_list
+    - md_in_html
   palette:
     - scheme: slate
       primary: black
