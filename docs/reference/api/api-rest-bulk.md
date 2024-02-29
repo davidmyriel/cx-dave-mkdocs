@@ -1,1 +1,1 @@
-# Coralogix REST API /bulk
+# REST API /bulk

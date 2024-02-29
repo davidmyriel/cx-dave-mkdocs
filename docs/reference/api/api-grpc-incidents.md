@@ -1,4 +1,4 @@
-# Incidents gRPC API
+# Incidents API
 
 ## Overview
 

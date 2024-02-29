@@ -1,6 +1,6 @@
-# Coralogix REST API /singles
+# REST API /singles
 
-## Example REST API Request
+## Example Request
 
 ``` bash
 

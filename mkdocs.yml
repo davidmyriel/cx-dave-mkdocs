@@ -35,6 +35,7 @@ nav:
     - Data Query API: https://heroic-travesseiro-698280.netlify.app/
     - Data Management API: 
         - reference/api/api-grpc-incidents.md
+        - Alerts API: https://heroic-travesseiro-698280.netlify.app/
     - Python SDK: 
         - reference/sdk/python.md
   - Configuration Tools: 

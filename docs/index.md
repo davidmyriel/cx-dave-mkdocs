@@ -3,7 +3,9 @@ hide:
 - toc
 ---
 
-# Welcome to Coralogix Developer Portal!
+# Home
+
+![coralogix-docs](getting-started/assets/coralogix-docs.png)
 
 ## Get started quickly
 
