@@ -2,7 +2,7 @@
 
 Coralogix is a cloud-based, SaaS analytics and monitoring platform that combines  [logs, metrics, and traces](https://coralogix.com/blog/understand-three-pillars-observability/)  to gain full observability into your system using one tool. The platform ingests data from any digital source and transforms it using our  [core features](https://coralogix.com/docs/coralogix-features-tour/), allowing you to fully understand your system, analyze that data efficiently, and respond to incidents before they become problems.
 
-To get started with Coralogix, sign up for a free account and import your system’s telemetry. Once data is ingested by our platform, you can use our core features to obtain full observability in your Coralogix dashboard.
+To get started with Coralogix, sign up for a free account and import your system’s telemetry. Once logs, metrics, and traces are ingested by our platform, you can use our core features to obtain full observability in your Coralogix dashboard.
 
 ![getting-started-1](assets/getting-started-1.png)
 
