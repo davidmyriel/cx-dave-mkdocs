@@ -2,6 +2,38 @@ site_name: Coralogix Developer Portal
 repo_url: https://github.com/davidmyriel/cx-dave-mkdocs
 repo_name: davidmyriel/cx-dave-mkdocs
 nav:
+  - newoutput:
+      - newoutput/dataprime-widget/index.md
+      - newoutput/alert-suppression-rules/index.md
+      - newoutput/alert-suppression-rules-api/index.md
+      - newoutput/apm/index.md
+      - newoutput/apm-onboarding-tutorial/index.md
+      - newoutput/aws-eventbridge-outbound-webhook/index.md
+      - newoutput/cockroachdb/index.md
+      - newoutput/coralogix-aws-shipper/index.md
+      - newoutput/coralogix-entities/index.md
+      - newoutput/create-annotations/index.md
+      - newoutput/create-manage-saved-views/index.md
+      - newoutput/custom-dashboards/index.md
+      - newoutput/explore-screen/index.md
+      - newoutput/gcp-getting-startedindex.md
+      - newoutput/google-alert-center/index.md
+      - newoutput/google-workspace-alert-center/index.md
+      - newoutput/google-workspace-users/index.md
+      - newoutput/groups/index.md
+      - newoutput/import-export-custom-dashboards/index.md
+      - newoutput/incidents-api/index.md
+      - newoutput/installing-coralogix-sta-gcp/index.md
+      - newoutput/jenkins-telemetry/index.md
+      - newoutput/node-js/index.md
+      - newoutput/onelogin/index.md
+      - newoutput/optimize-metrics-costs-in-coralogix-by-adjusting-your-scrape-interval/index.md 
+      - newoutput/roles-permissions/index.md
+      - newoutput/send-logs-using-aws-kinesis-data-firehose/index.md
+      - newoutput/service-flows/index.md
+      - newoutput/service-removal-api/index.md
+      - newoutput/slo-management-api/index.md
+      - newoutput/windows-event-logs-opentelemetry/index.md
   - Coralogix User Guide: 
       - index.md
       - Getting Started: 
