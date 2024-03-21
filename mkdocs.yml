@@ -2,94 +2,141 @@ site_name: Coralogix Developer Portal
 repo_url: https://github.com/davidmyriel/cx-dave-mkdocs
 repo_name: davidmyriel/cx-dave-mkdocs
 nav:
-  - newoutput:
-      - newoutput/dataprime-widget/index.md
+  - User Guides:
+    - index.md
+    - Getting Started:
+      - getting-started/index.md
+      - getting-started/page1.md
+      - getting-started/page2.md
+    - Transform Your Data: 
       - newoutput/alert-suppression-rules/index.md
-      - newoutput/alert-suppression-rules-api/index.md
+    - Query Your Data: 
+      - newoutput/alert-suppression-rules/index.md
+    - Monitor Your Data: 
+      - newoutput/create-manage-saved-views/index.md
+      - newoutput/explore-screen/index.md
+    - Monitor Kubernetes Applications: 
+      - newoutput/alert-suppression-rules/index.md
+    - Synthetic Monitoring: 
+      - newoutput/alert-suppression-rules/index.md
+    - Application Performance Monitoring: 
       - newoutput/apm/index.md
       - newoutput/apm-onboarding-tutorial/index.md
+    - Real User Monitoring: 
+      - newoutput/alert-suppression-rules/index.md
+    - Alerting: 
+      - newoutput/alert-suppression-rules/index.md
       - newoutput/aws-eventbridge-outbound-webhook/index.md
-      - newoutput/cockroachdb/index.md
-      - newoutput/coralogix-aws-shipper/index.md
-      - newoutput/coralogix-entities/index.md
-      - newoutput/create-annotations/index.md
-      - newoutput/create-manage-saved-views/index.md
+    - Visualizations: 
+      - newoutput/alert-suppression-rules/index.md
+    - Custom Dashboards: 
       - newoutput/custom-dashboards/index.md
-      - newoutput/explore-screen/index.md
-      - newoutput/gcp-getting-startedindex.md
+      - newoutput/create-annotations/index.md
+      - newoutput/dataprime-widget/index.md
+      - newoutput/import-export-custom-dashboards/index.md
+    - Security: 
+      - newoutput/alert-suppression-rules/index.md
+    - Account Administration:
+      - newoutput/coralogix-entities/index.md
+      - newoutput/groups/index.md
+      - Managing Your Organization:
+          - newoutput/managing-your-organization/index.md
+          - newoutput/managing-your-organization-manage-admins/index.md
+          - newoutput/managing-your-organization-my-teams/index.md
+          - newoutput/managing-your-organization-organization-settings/index.md
+          - newoutput/managing-your-organization-quota-manager/index.md
+
+  - Integrations:
+    - integrations/index.md
+    - Files:
+      - newoutput/cockroachdb/index.md
+    - OpenTelemetry: 
+      - integrations/open-telemetry/open-telemetry1.md
+    - AWS: 
+      - newoutput/coralogix-aws-shipper/index.md
+      - integrations/aws/aws2.md
+    - Azure: 
+      - integrations/azure/azure1.md
+      - integrations/azure/azure2.md
+    - Google Cloud Platform: 
+      - newoutput/gcp-getting-started/index.md
       - newoutput/google-alert-center/index.md
       - newoutput/google-workspace-alert-center/index.md
       - newoutput/google-workspace-users/index.md
-      - newoutput/groups/index.md
-      - newoutput/import-export-custom-dashboards/index.md
-      - newoutput/incidents-api/index.md
-      - newoutput/installing-coralogix-sta-gcp/index.md
-      - newoutput/jenkins-telemetry/index.md
-      - newoutput/node-js/index.md
-      - newoutput/onelogin/index.md
-      - newoutput/optimize-metrics-costs-in-coralogix-by-adjusting-your-scrape-interval/index.md 
-      - newoutput/roles-permissions/index.md
-      - newoutput/send-logs-using-aws-kinesis-data-firehose/index.md
-      - newoutput/service-flows/index.md
-      - newoutput/service-removal-api/index.md
-      - newoutput/slo-management-api/index.md
-      - newoutput/windows-event-logs-opentelemetry/index.md
-  - Coralogix User Guide: 
-      - index.md
-      - Getting Started: 
-        - getting-started/index.md
-        - Key Features: getting-started/page1.md
-        - Coralogix Endpoints: getting-started/page2.md
-      - Send Data to Coralogix: 
-        - getting-started/index.md
-      - Monitor Your Data: 
-        - Application Performance Monitoring: 
-          - features/apm/page1.md
-        - Real User Monitoring: 
-           - features/rum/page1.md
-      - Transform Data: 
-           - changelog/index.md 
-      - Visualize Data: 
-           - changelog/index.md 
-      - Data Insights: 
-           - changelog/index.md 
-      - Security & Alerts: 
-           - changelog/index.md 
-      - Administration:
-           - features/administration/teams.md 
-      - Changelog: 
-        - changelog/index.md 
-  - API & SDK Reference: 
-    - reference/index.md
-    - Data Ingestion API:
+      - integrations/gcp/gcp2.md
+    - Prometheus: 
+      - integrations/prometheus/prometheus1.md
+    - FluentD:
+      - newoutput/alert-suppression-rules/index.md
+    - FluentBit:
+      - newoutput/alert-suppression-rules/index.md
+
+
+
+
+  - OpenTelemetry:
+    - Getting Started: 
+      - newoutput/opentelemetry/index.md
+      - newoutput/opentelemetry-collector-installation-ecs-fargate/index.md
+      - newoutput/opentelemetry-custom-logs/index.md
+      - newoutput/opentelemetry-custom-metrics/index.md
+      - newoutput/opentelemetry-custom-traces/index.md
+      - newoutput/opentelemetry-using-docker/index.md
+      - newoutput/running-opentelemetry-as-a-cli-application/index.md
+    - Kubernetes Observability:  
+      - newoutput/set-up-kubernetes-observability-using-opentelemetry-advanced-configuration/index.md
+    - Configuration:  
+      - newoutput/alert-suppression-rules/index.md
+    - Instrumentation: 
+      - newoutput/alert-suppression-rules/index.md
+    - Tail Sampling:
+      - newoutput/alert-suppression-rules/index.md    
+
+  - Developer Portal:
+    - APIs: 
+      - reference/index.md
+      - newoutput/management-api-endpoints/index.md
+      - Data Ingestion API:
         - reference/api/api-rest-singles.md
         - reference/api/api-rest-bulk.md
-    - Data Query API: https://heroic-travesseiro-698280.netlify.app/
-    - Data Management API: 
-        - reference/api/api-grpc-incidents.md
+      - Data Query API: https://heroic-travesseiro-698280.netlify.app/
+      - Data Management API: 
+        - newoutput/alert-suppression-rules-api/index.md
+        - newoutput/incidents-api/index.md
+        - newoutput/service-removal-api/index.md
+        - newoutput/slo-management-api/index.md
+        - newoutput/archive-setup-grpc-api/index.md
         - Alerts API: https://heroic-travesseiro-698280.netlify.app/
-    - Python SDK: 
-        - reference/sdk/python.md
-  - Configuration Tools: 
-    - Terraform: 
-        - config-tools/terraform-provider.md
-    - Kubernetes & Helm: 
-        - config-tools/helm-kubernetes.md
-  - Product Integrations: 
-      - Google Cloud Platform: 
-        - integrations/gcp/gcp0.md
-        - integrations/gcp/gcp1.md
-        - integrations/gcp/gcp2.md
-      - Amazon Web Services: 
-        - integrations/aws/aws1.md
-        - integrations/aws/aws2.md
-      - Microsoft Azure: 
-        - integrations/azure/azure1.md
-        - integrations/azure/azure2.md
-      - OpenTelemetry:
-        - integrations/open-telemetry/open-telemetry1.md
-      - Prometheus:
-        - integrations/prometheus/prometheus1.md
+    - Coralogix Operator: 
+      - newoutput/alert-suppression-rules/index.md
+    - Coralogix Terraform Provider:
+      - newoutput/alert-suppression-rules/index.md
+      - newoutput/terraform-module-for-cloudflare-logpush/index.md
+      - newoutput/terraform-modules/index.md
+      - newoutput/terraform-modules-aws-s3-logs/index.md
+      - newoutput/terraform-modules-for-aws-cloudtrail/index.md
+      - newoutput/terraform-modules-for-azure-eventhub/index.md
+      - newoutput/terraform-modules-for-gcp-pub-sub/index.md   
+      - newoutput/aws-kinesis-data-firehose-terraform-module/index.md
+      - newoutput/aws-kinesis-with-lambda-function-terraform-module/index.md
+      - newoutput/cloudtrail-s3-terraform/index.md
+      - newoutput/terraform-module-for-azure-queue-storage/index.md
+      - newoutput/terraform-modules-for-amazon-web-services-aws/index.md
+      - newoutput/terraform-modules-for-aws-vpc-flow-logs/index.md
+      - newoutput/terraform-modules-for-azure-blob-storage-via-event-grid/index.md
+      - newoutput/terraform-modules-for-azure-diagnostic-data/index.md
+
+
+            
+          
+      
+
+       
+
+   
+
+
+
 
 plugins:
   - search

@@ -19,11 +19,11 @@ There are two ways of sending AWS service metrics to Coralogix:
 
 - **Real-time CloudWatch metrics processing using CloudWatch Metric Stream and Firehose Delivery Stream**. Opt for this if you’d like to use a native AWS solution without an agent. Use the [Amazon CloudWatch pricing calculator](https://aws.amazon.com/cloudwatch/pricing/) to estimate the costs of this option. The instructions below guide you through **this option**.
 
-- **Poll CloudWatch metrics using [Telegraf](https://docs.influxdata.com/telegraf/v1.24/install/#installation)**. [Opt for this](https://coralogixstg.wpengine.com/docs/collect-cloudwatch-metrics-telegraf/) if you are already using this shipper or seeking to reduce costs.
+- **Poll CloudWatch metrics using [Telegraf](https://docs.influxdata.com/telegraf/v1.24/install/#installation)**. [Opt for this]() if you are already using this shipper or seeking to reduce costs.
 
 ## Configuration
 
-1\. Set up [CloudWatch Metric Stream and Firehose Delivery Stream](https://coralogixstg.wpengine.com/docs/amazon-kinesis-data-firehose-metrics/).
+1\. Set up [CloudWatch Metric Stream and Firehose Delivery Stream]().
 
 2\. Identify the [AWS services that publish metrics to CloudWatch and their namespaces](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html). Use them in your configuration to collect the metrics.
 
@@ -33,11 +33,11 @@ There are two ways of sending AWS service metrics to Coralogix:
 
 1\. Download and import the metric stream version of your RDS dashboard.
 
-[Download JSON](/wp-content/uploads/2022/12/rds_metric_stream-1-1.json)
+[Download JSON]()
 
 2\. Download and import the metric stream version of ElastiCache dashboard.
 
-[Download JSON](/wp-content/uploads/2022/12/elasti_cache_metric_stream-1.json)
+[Download JSON]()
 
 ## **Alerts**
 

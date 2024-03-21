@@ -51,8 +51,6 @@ Note that EU is used in this example, but depending on your Coralogix **[domain
 
 **STEP 10.** Click **FINISH**.
 
-![Contextual Data - Slack Complete.png](images/Contextual_Data_-_Slack_Complete.png)
-
 ## Support
 
 **Need help?**

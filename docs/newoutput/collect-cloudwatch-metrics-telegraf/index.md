@@ -17,7 +17,7 @@ This guide demonstrates how to:
 
 There are two ways of sending AWS service metrics to Coralogix:
 
-- **Real-time CloudWatch metrics processing using CloudWatch Metric Stream and Firehose Delivery Stream**. [Opt for this](https://coralogixstg.wpengine.com/docs/cloudwatch-metric-firehose-delivery-stream/) if you’d like to use a native AWS solution without an agent by [setting up a CloudWatch metric stream and Firehose delivery steam](https://coralogixstg.wpengine.com/docs/amazon-kinesis-data-firehose-metrics/). Use the [Amazon CloudWatch pricing calculator](https://aws.amazon.com/cloudwatch/pricing/) to estimate the costs of this option.
+- **Real-time CloudWatch metrics processing using CloudWatch Metric Stream and Firehose Delivery Stream**. [Opt for this]() if you’d like to use a native AWS solution without an agent by [setting up a CloudWatch metric stream and Firehose delivery steam](). Use the [Amazon CloudWatch pricing calculator](https://aws.amazon.com/cloudwatch/pricing/) to estimate the costs of this option.
 
 - **Poll CloudWatch metrics using [Telegraf](https://docs.influxdata.com/telegraf/v1.24/install/#installation)**. Opt for this if you are already using this shipper or seeking to reduce costs. The instructions below guide you through **this option**.
 
@@ -119,12 +119,12 @@ There are two ways of sending AWS service metrics to Coralogix:
 
 In order to send your data to Coralogix, you are **required** to declare the following variables in your configuration:
 
-- **`service_address`**: In order to send metrics to Coralogix, you will need to include your account’s specific **[domain](https://coralogixstg.wpengine.com/docs/coralogix-domain/)** in the Coralogix endpoint: `otel-metrics.<domain>:443`.
+- **`service_address`**: In order to send metrics to Coralogix, you will need to include your account’s specific **[domain]()** in the Coralogix endpoint: `otel-metrics.<domain>:443`.
     - For example, if you are located in Region US1, your `service_address` should appear as: `otel-metrics.coralogix.us:443`.
 
-- **`private_key`**: Access your Coralogix [Send-Your-Data API key](https://coralogixstg.wpengine.com/docs/send-your-data-api-key/). Your key is recorded in the override file as a secret in order to ensure that this sensitive information remains protected and unexposed.
+- **`private_key`**: Access your Coralogix [Send-Your-Data API key](). Your key is recorded in the override file as a secret in order to ensure that this sensitive information remains protected and unexposed.
 
-- **`application`** & **`subsystem`**: Customize and organize your data in your Coralogix dashboard using **[application](https://coralogixstg.wpengine.com/docs/application-and-subsystem-names/)** and **[subsystem](https://coralogixstg.wpengine.com/docs/application-and-subsystem-names/)** names.
+- **`application`** & **`subsystem`**: Customize and organize your data in your Coralogix dashboard using **[application]()** names.
 
 **Note**: Find out more about different attributes available for the CloudWatch statistics input plugin [here](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/cloudwatch).
 
@@ -145,13 +145,13 @@ In order to send your data to Coralogix, you are **required** to declare the f
 
 1\. Download and import the Telegraf version of your RDS dashboard.
 
-[Download JSON](/wp-content/uploads/2022/12/rds_telegraf-3.json)
+[Download JSON]()
 
 ![](images/Screen-1024x644.png)
 
 2\. Download and import the Telegraf version of your ElastiCache dashboard.
 
-[Download JSON](/wp-content/uploads/2022/12/elasti_cache_telegraf-1.json)
+[Download JSON]()
 
 ## **Alerts**
 

@@ -267,7 +267,7 @@ Function parameters:
     
     - `'timestamp_second'` / `'timestamp_milli'` / `'timestamp_micro'` / `'timestamp_nano'` - timestamp in seconds / milliseconds / microseconds / nanoseconds (10/13/16/19 digits) resp.
     
-    - Custom [timestamp formats](https://coralogixstg.wpengine.com/docs/dataprime-specifying-timestamp-formats/)
+    - Custom [timestamp formats](/docs/dataprime-specifying-timestamp-formats/)
     
     - `'format1|format2|...'` - a cascade of formats to attempt in sequence
 

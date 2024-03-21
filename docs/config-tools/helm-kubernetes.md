@@ -9,7 +9,7 @@ Metrics integrations, [Prometheus](https://prometheus.io/),
 
 Tracing integrations, [OpenTelemetry](https://opentelemetry.io/).
 
-Please see [#Getting Started](README.md#getting-started) for more information about the existing integrations.
+Please see [#Getting Started](#getting-started) for more information about the existing integrations.
 
 ## Getting Started
 
