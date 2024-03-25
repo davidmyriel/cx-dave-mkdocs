@@ -5,16 +5,39 @@ nav:
   - User Guides:
     - index.md
     - Getting Started:
-      - getting-started/index.md
-      - getting-started/page1.md
-      - getting-started/page2.md
+      - newoutput/coralogix-features-tour/index.md
+      - newoutput/guide-first-steps-coralogix/index.md
+      - newoutput/integration-packages/index.md
     - Transform Your Data: 
-      - newoutput/alert-suppression-rules/index.md
+      - Enrichment:
+        - newoutput/lookup-tables/index.md
+        - newoutput/aws-resource-enrichment/index.md
+      - Metric Rules:
+        - newoutput/recordingrules/index.md
+      - Parsing: 
+        - newoutput/auto-json-parsing/index.md
+        - newoutput/log-parsing-rules/index.md
     - Query Your Data: 
-      - newoutput/alert-suppression-rules/index.md
+      - DataPrime:
+        - newoutput/dataprime-cheat-sheet/index.md
+        - newoutput/dataprime-query-language/index.md
+        - newoutput/dataprime-quick-start-guide/index.md
+        - newoutput/glossary-dataprime-operators/index.md
+        - newoutput/dataprime-specifying-timestamp-formats/index.md
+      - Archive Query:
+        - newoutput/archive-query/index.md
+        - newoutput/archive-query-from-logs-screen/index.md
+        - newoutput/archive-query-sql/index.md
+        - newoutput/query-s3-coralogix-archive-bucket-cx-data/index.md
+      - Log Query:
+        - newoutput/log-query-simply-retrieve-data/index.md
     - Monitor Your Data: 
-      - newoutput/create-manage-saved-views/index.md
-      - newoutput/explore-screen/index.md
+        - Explore Screen:
+          - newoutput/explore-screen-content-column/index.md
+          - newoutput/explore-screen-custom-views/index.md
+          - newoutput/explore-screen-manage-columns/index.md
+          - newoutput/create-manage-saved-views/index.md
+          - newoutput/explore-screen/index.md
     - Monitor Kubernetes Applications: 
       - newoutput/alert-suppression-rules/index.md
     - Synthetic Monitoring: 
@@ -45,72 +68,202 @@ nav:
           - newoutput/managing-your-organization-my-teams/index.md
           - newoutput/managing-your-organization-organization-settings/index.md
           - newoutput/managing-your-organization-quota-manager/index.md
-
   - Integrations:
     - integrations/index.md
-    - Files:
-      - newoutput/cockroachdb/index.md
-    - OpenTelemetry: 
-      - integrations/open-telemetry/open-telemetry1.md
     - AWS: 
       - newoutput/coralogix-aws-shipper/index.md
-      - integrations/aws/aws2.md
+      - newoutput/send-logs-using-aws-kinesis-data-firehose/index.md
+      - newoutput/amazon-web-services-aws-ecs-ec2-opentelemetry-instrumentation/index.md
+      - newoutput/amazon-web-services-aws-s3-log-collection-via-sns-trigger/index.md
+      - newoutput/aws-cloudformation/index.md
+      - newoutput/aws-cloudtrail-data-collection-options/index.md
+      - newoutput/aws-cloudwatch-integration-options/index.md
+      - newoutput/aws-coudtrail-log-collection-via-sns-trigger/index.md
+      - newoutput/aws-ecs-fargate/index.md
+      - newoutput/aws-eks-fargate/index.md
+      - newoutput/aws-elastic-beanstalk/index.md
+      - newoutput/aws-inspecto-integration/index.md
+      - newoutput/aws-privatelink-lambda-configuration/index.md
+      - newoutput/aws-privatelink-vpc-peering-configuration/index.md
+      - newoutput/aws-resource-metadata-collection/index.md
+      - newoutput/aws-secrets-manager-lambda-layer/index.md
+      - newoutput/aws-vpc-flow-logs-collection-options/index.md
+      - newoutput/aws-firehose/index.md
+      - newoutput/aws-traffic-mirroring/index.md
+      - newoutput/coralogix-amazon-web-services-aws-privatelink-endpoints/index.md
+      - newoutput/coralogix-extensions-for-aws-lambda/index.md
+      - newoutput/coralogix-aws-lambda-telemetry-exporter/index.md
+      - newoutput/archive-retention-policy/index.md
     - Azure: 
-      - integrations/azure/azure1.md
-      - integrations/azure/azure2.md
+      - newoutput/introduction-to-microsoft-azure/index.md
+      - newoutput/optional-configurations-microsoft-azure/index.md
+      - newoutput/microsoft-azure-functions/index.md
+      - newoutput/azure-activity-logs/index.md
+      - newoutput/azure-eventhub-trigger-function/index.md
+      - newoutput/azure-metrics/index.md
+      - newoutput/azure-platform-monitoring/index.md
+      - newoutput/azure-resource-logs/index.md
+      - newoutput/azure-resource-manager-arm-integration-packages/index.md
+      - newoutput/blobstorage-microsoft-azure-functions/index.md
+      - newoutput/diagnostic-data-microsoft-azure-resource-manager-arm/index.md
+      - newoutput/queue-storage-microsoft-azure-functions/index.md
+      - newoutput/serverless-integration-deployment-container-microsoft-azure-functions/index.md
+      - newoutput/azure-activity-and-audit-logs-with-filebeat/index.md
+      - newoutput/azure-devops-server-version-tags/index.md
+      - newoutput/azure-status-logs/index.md
     - Google Cloud Platform: 
       - newoutput/gcp-getting-started/index.md
-      - newoutput/google-alert-center/index.md
       - newoutput/google-workspace-alert-center/index.md
       - newoutput/google-workspace-users/index.md
-      - integrations/gcp/gcp2.md
+      - newoutput/gcp-logs/index.md
+      - newoutput/gcp-metrics/index.md
+      - newoutput/gcp-traces/index.md
+      - newoutput/gcp-log-explorer/index.md
+    - Security:
+      - newoutput/onelogin/index.md
+      - newoutput/surf/index.md
+      - newoutput/shipping-snowflake-logs-and-audit-data-to-coralogix/index.md
+      - newoutput/sentinelone/index.md
+      - newoutput/duo-security/index.md
+      - newoutput/snyk-vulnerability-monitoring-with-coralogix/index.md
+      - newoutput/pingsafe-using-fluentd/index.md
+      - newoutput/zscaler-secure-private-access-zpa/index.md
+      - newoutput/suricata/index.md
+      - newoutput/zeek/index.md
+      - newoutput/cloudflare-audit-logs/index.md
+      - newoutput/fortigate-traffic-logging/index.md
+      - newoutput/office-365-audit-logs/index.md
+      - newoutput/crowdstrike-falcon/index.md
+      - newoutput/alcide-kaudit/index.md
+    - CI/CD: 
+      - newoutput/jenkins-telemetry/index.md
+    - Files:
+      - newoutput/cockroachdb/index.md
+      - newoutput/tutorial-install-and-configure-filebeat-to-send-your-logs-to-coralogix/index.md
+      - newoutput/fluent-bit/index.md
+      - newoutput/vector/index.md
+      - newoutput/coralogix-logstash-integration/index.md
+    - Contextual Data:
+      - newoutput/okta-contextual-logs/index.md
+      - newoutput/statuspage-logs/index.md
+      - newoutput/intercom-logs/index.md
+      - newoutput/gcp-status-logs/index.md
+      - newoutput/aws-status-logs/index.md
+      - newoutput/opsgenie-data-ingestion/index.md
+      - newoutput/slack-data-ingestion/index.md
+      - newoutput/aws-sns-data-ingestion/index.md
+      - newoutput/pagerduty-data-ingestion/index.md
+      - newoutput/github-data-ingestion/index.md
+      - newoutput/gitlab-data-ingestion/index.md
+      - newoutput/bitbucket-version-tags/index.md
+    - Incoming Webhooks:
+      - newoutput/generic-incoming-webhooks/index.md
+      - newoutput/upguard/index.md
+    - Syslog:
+      - newoutput/syslog-coralogix/index.md
+      - newoutput/syslog-using-otel/index.md
+    - Metrics:
+      - newoutput/mongodb-atlas/index.md
+      - newoutput/metrics-usage/index.md
+      - newoutput/external-labels/index.md
+      - newoutput/collect-cloudwatch-metrics-telegraf/index.md
+      - newoutput/telegraf/index.md
+      - newoutput/telegraf-operator/index.md
+      - newoutput/zabbix/index.md
+      - newoutput/nagios-coralogix/index.md
+      - newoutput/statsd/index.md
+      - newoutput/custom-metrics/index.md
+      - newoutput/coralogix-rabbitmq-agent/index.md
     - Prometheus: 
-      - integrations/prometheus/prometheus1.md
-    - FluentD:
-      - newoutput/alert-suppression-rules/index.md
-    - FluentBit:
-      - newoutput/alert-suppression-rules/index.md
-
-
-
+      - newoutput/prometheus/index.md
+      - newoutput/prometheus-operator/index.md
+      - newoutput/prometheus-agent/index.md
+      - newoutput/prometheus-server/index.md
+    - PaaS Platforms:
+      - newoutput/open-commerce-api/index.md
+      - newoutput/salesforce-commerce-cloud/index.md
+    - Container Orchestration:
+      - newoutput/fluentbit-helm-chart-for-kubernetes/index.md
+      - newoutput/fluentd-helm-chart-for-kubernetes/index.md
+    - CDN:
+      - newoutput/cloudflare-coralogix/index.md
+    - SDKs: 
+      - newoutput/serilog/index.md
 
   - OpenTelemetry:
     - Getting Started: 
-      - newoutput/opentelemetry/index.md
       - newoutput/opentelemetry-collector-installation-ecs-fargate/index.md
-      - newoutput/opentelemetry-custom-logs/index.md
-      - newoutput/opentelemetry-custom-metrics/index.md
-      - newoutput/opentelemetry-custom-traces/index.md
-      - newoutput/opentelemetry-using-docker/index.md
       - newoutput/running-opentelemetry-as-a-cli-application/index.md
+    - Configuration Options:  
+      - newoutput/opentelemetry/index.md
+      - newoutput/opentelemetry-using-docker/index.md
+      - newoutput/windows-event-logs-opentelemetry/index.md
+      - newoutput/install-opentelemetry-ec2/index.md
+      - newoutput/opentelemetry-using-ecs-ec2/index.md
+    - Instrumentation Options: 
+      - newoutput/node-js/index.md
+      - newoutput/golang-open-telemetry-instrumentation/index.md
+      - newoutput/php-opentelemetry-instrumentation/index.md
+      - newoutput/otel-lambda-auto-instrumentation/index.md
+      - newoutput/java-opentelemetry-instrumentation/index.md
+      - newoutput/capture-opentelemetry-traces-from-your-python-applications/index.md
     - Kubernetes Observability:  
+      - newoutput/kubernetes-observability-opentelemetry/index.md
+      - newoutput/otel-collector-for-k8s/index.md
       - newoutput/set-up-kubernetes-observability-using-opentelemetry-advanced-configuration/index.md
-    - Configuration:  
-      - newoutput/alert-suppression-rules/index.md
-    - Instrumentation: 
-      - newoutput/alert-suppression-rules/index.md
+      - newoutput/validation-kubernetes-observability-using-opentelemetry/index.md
+      - newoutput/tail-sampling-with-opentelemetry-using-kubernetes/index.md
+      - newoutput/troubleshooting-kubernetes-observability-using-opentelemetry/index.md
+      - newoutput/faqs-kubernetes-observability-using-opentelemetry/index.md
+    - Monitoring:
+      - newoutput/monitor-windows-server-using-otel/index.md
     - Tail Sampling:
-      - newoutput/alert-suppression-rules/index.md    
+      - newoutput/tail-sampling-with-opentelemetry-using-docker/index.md   
+      - newoutput/tail-sampling-with-coralogix-and-opentelemetry/index.md
 
   - Developer Portal:
     - APIs: 
-      - reference/index.md
+      - newoutput/coralogix-apis/index.md  
+      - newoutput/coralogix-endpoints/index.md    
       - newoutput/management-api-endpoints/index.md
-      - Data Ingestion API:
-        - reference/api/api-rest-singles.md
-        - reference/api/api-rest-bulk.md
-      - Data Query API: https://heroic-travesseiro-698280.netlify.app/
-      - Data Management API: 
-        - newoutput/alert-suppression-rules-api/index.md
-        - newoutput/incidents-api/index.md
-        - newoutput/service-removal-api/index.md
-        - newoutput/slo-management-api/index.md
-        - newoutput/archive-setup-grpc-api/index.md
-        - Alerts API: https://heroic-travesseiro-698280.netlify.app/
+      - newoutput/alerts-rules-tags-api-key/index.md
+      - newoutput/send-your-data-api-key/index.md
+    - Data Ingestion API:
+      - newoutput/opentelemetry-custom-logs/index.md
+      - newoutput/opentelemetry-custom-metrics/index.md
+      - newoutput/opentelemetry-custom-traces/index.md
+      - newoutput/rest-api-bulk/index.md
+      - newoutput/rest-api-singles/index.md
+    - Data Query API: 
+      - newoutput/direct-query-http-api/index.md
+    - Data Management API: 
+      - Alerts API: https://heroic-travesseiro-698280.netlify.app/
+      - newoutput/alert-suppression-rules-api/index.md
+      - newoutput/incidents-api/index.md
+      - newoutput/service-removal-api/index.md
+      - newoutput/slo-management-api/index.md
+      - newoutput/archive-setup-grpc-api/index.md
+      - newoutput/tco-tracing-policy-grpc-api/index.md
+      - newoutput/data-usage-service-api/index.md
+      - newoutput/recording-rules-api/index.md
+      - newoutput/send-your-data-management-api/index.md
+      - newoutput/grafana-api/index.md
+      - newoutput/metrics-api/index.md
+      - newoutput/webhooks-api/index.md
+      - newoutput/tco-optimizer-api/index.md
+    - Version Tags: 
+      - newoutput/github-version-tags/index.md
+      - newoutput/argo-cd-version-tags/index.md
+      - newoutput/version-tags-with-curl/index.md
+      - newoutput/spinnaker-version-tags/index.md
+      - newoutput/gitlab-version-tags/index.md
+    - CLI:
+      - newoutput/coralogix-cli/index.md
+      - newoutput/team-management-via-cli/index.md
+      - newoutput/saml-management-via-cli/index.md
     - Coralogix Operator: 
-      - newoutput/alert-suppression-rules/index.md
+      - newoutput/coralogix-operator/index.md
     - Coralogix Terraform Provider:
-      - newoutput/alert-suppression-rules/index.md
       - newoutput/terraform-module-for-cloudflare-logpush/index.md
       - newoutput/terraform-modules/index.md
       - newoutput/terraform-modules-aws-s3-logs/index.md
