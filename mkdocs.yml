@@ -32,46 +32,143 @@ nav:
       - Log Query:
         - newoutput/log-query-simply-retrieve-data/index.md
     - Monitor Your Data: 
+        - newoutput/events2metrics/index.md
+        - newoutput/label-mapping/index.md
         - Explore Screen:
           - newoutput/explore-screen-content-column/index.md
           - newoutput/explore-screen-custom-views/index.md
           - newoutput/explore-screen-manage-columns/index.md
           - newoutput/create-manage-saved-views/index.md
           - newoutput/explore-screen/index.md
+        - Distributed Tracing:
+          - newoutput/async-traces-otellink/index.md
     - Monitor Kubernetes Applications: 
       - newoutput/alert-suppression-rules/index.md
+      - newoutput/kubernetes-collector/index.md
+      - newoutput/kubernetes-dashboard/index.md
+      - newoutput/kubernetes-dashboard-cluster-view/index.md
     - Synthetic Monitoring: 
-      - newoutput/alert-suppression-rules/index.md
+      - newoutput/synthetic-monitoring-coralogix-telegraf/index.md
+      - newoutput/synthetic-monitoring-with-checkly/index.md
     - Application Performance Monitoring: 
       - newoutput/apm/index.md
       - newoutput/apm-onboarding-tutorial/index.md
+      - newoutput/apm-amazon-ec2/index.md
+      - newoutput/apm-kubernetes/index.md
+      - newoutput/apm-kubernetes-open-telemetry-opentelemetry/index.md
+      - newoutput/service-catalog/index.md
+      - newoutput/service-map/index.md
+      - newoutput/serverless-monitoring/index.md    
+      - Features:
+         - newoutput/service-flows/index.md
+         - newoutput/apdex-score/index.md
     - Real User Monitoring: 
       - newoutput/alert-suppression-rules/index.md
+      - newoutput/rum-integration-package/index.md
+      - newoutput/rum-source-maps/index.md
+      - newoutput/real-user-monitoring/index.md
+      - newoutput/real-user-monitoring-cli/index.md
+      - Features: 
+         - newoutput/core-web-vitals/index.md
+         - newoutput/error-analytics/index.md
+         - newoutput/error-template-view/index.md
+         - newoutput/error-tracking/index.md
+         - newoutput/error-tracking-user-manual/index.md
+      - Configuration:
+         - newoutput/browser-sdk-installation-guide/index.md
+         - newoutput/cdn-browser-sdk-installation-guide/index.md
+         - newoutput/ignore-errors/index.md
     - Alerting: 
+      - newoutput/getting-started-with-coralogix-alerts/index.md
       - newoutput/alert-suppression-rules/index.md
-      - newoutput/aws-eventbridge-outbound-webhook/index.md
+      - newoutput/alerts-map/index.md
+      - newoutput/incidents/index.md
+      - Metric Alerts:
+         - newoutput/machine-learning-metric-alert/index.md
+         - newoutput/metric-alerts-promql/index.md
+      - Outbound Webhooks:
+         - newoutput/alert-webhooks/index.md
+         - newoutput/alert-notifications-outbound-webhooks/index.md
+         - newoutput/aws-eventbridge-outbound-webhook/index.md
+         - newoutput/create-alerting-email-templates-with-coralogix/index.md
+         - newoutput/email-group-outbound-webhooks/index.md
+         - newoutput/alert-webhook-with-google-chat/index.md
+         - newoutput/alert-webhook-with-slack/index.md
     - Visualizations: 
-      - newoutput/alert-suppression-rules/index.md
+      - newoutput/tableau-plugin/index.md
+      - newoutput/hosted-opensearch-view/index.md
+      - Grafana:
+         - newoutput/hosted-grafana-view/index.md
+         - newoutput/grafana-plugin/index.md
     - Custom Dashboards: 
       - newoutput/custom-dashboards/index.md
       - newoutput/create-annotations/index.md
       - newoutput/dataprime-widget/index.md
       - newoutput/import-export-custom-dashboards/index.md
+      - Tutorials:
+         - newoutput/adding-archive-data-to-custom-dashboard-widgets/index.md
+         - newoutput/creating-alerts-from-custom-dashboard-widgets/index.md
+         - newoutput/create-metric-from-custom-dashboard-widget/index.md
+         - newoutput/multiple-queries-in-custom-dashboard-widgets/index.md
+      - Widgets:
+         - newoutput/horizontal-bar-charts/index.md
+         - newoutput/custom-dashboards-bar-charts/index.md
+         - newoutput/custom-dashboards-data-tables/index.md
+         - newoutput/custom-dashboards-gauges/index.md
+         - newoutput/custom-dashboards-line-charts/index.md
+         - newoutput/custom-dashboards-markdown-widget/index.md
+         - newoutput/custom-dashboards-pie-charts/index.md
+         - newoutput/custom-webhooks-metric-alerts/index.md    
     - Security: 
-      - newoutput/alert-suppression-rules/index.md
+      - newoutput/installing-coralogix-sta-gcp/index.md
+      - Cloud Security Posture Management (CSPM):
+         - newoutput/cloud-security-posture-management-cspm/index.md
+         - newoutput/downloading-your-security-report/index.md
+      - Security Traffic Analyzer (STA):
+         - newoutput/data-contained-in-sta-event-types/index.md
+         - newoutput/data-enrichment-coralogix-sta/index.md
+         - newoutput/security-traffic-analyzer-sta-dashboards/index.md
+         - newoutput/sta-capturing-network-traffic-into-cloud-storage/index.md
+         - newoutput/sta-custom-enrichment/index.md
+         - newoutput/coralogix-sta-kubernetes-context-enrichment/index.md
+         - newoutput/coralogix-sta-virtual-tap/index.md
+         - newoutput/sta-whats-in-the-box/index.md
+         - newoutput/insights-detection/index.md
     - Account Administration:
       - newoutput/coralogix-entities/index.md
       - newoutput/groups/index.md
-      - Managing Your Organization:
+      - Payment & Billing:
+          - newoutput/data-usage-metrics/index.md
+          - newoutput/pay-as-you-go/index.md
+          - newoutput/plan-and-payments-management/index.md
+          - newoutput/quota-management/index.md
+          - newoutput/data-usage/index.md
+          - newoutput/optimize-metrics-costs-in-coralogix-by-adjusting-your-scrape-interval/index.md
+      - Account Settings:
+          - newoutput/coralogix-team-id/index.md
+          - newoutput/ip-access-control/index.md
+          - newoutput/coralogix-domain/index.md
+          - newoutput/application-and-subsystem-names/index.md
+      - User Management:
+          - newoutput/roles-permissions/index.md
+          - newoutput/user-team-management/index.md
+      - Organization Management:
           - newoutput/managing-your-organization/index.md
           - newoutput/managing-your-organization-manage-admins/index.md
           - newoutput/managing-your-organization-my-teams/index.md
           - newoutput/managing-your-organization-organization-settings/index.md
           - newoutput/managing-your-organization-quota-manager/index.md
+          - newoutput/organization-admin-console/index.md
+      - Account Management:
+          - newoutput/session-length-management/index.md
+          - newoutput/archive-retention-policy/index.md
+      - TCO Optimizer:
+          - newoutput/tracing-tco-optimizer/index.md
   - Integrations:
     - integrations/index.md
     - AWS: 
       - newoutput/coralogix-aws-shipper/index.md
+      - newoutput/amazon-s3-data-collection-options/index.md
       - newoutput/send-logs-using-aws-kinesis-data-firehose/index.md
       - newoutput/amazon-web-services-aws-ecs-ec2-opentelemetry-instrumentation/index.md
       - newoutput/amazon-web-services-aws-s3-log-collection-via-sns-trigger/index.md
@@ -93,7 +190,17 @@ nav:
       - newoutput/coralogix-amazon-web-services-aws-privatelink-endpoints/index.md
       - newoutput/coralogix-extensions-for-aws-lambda/index.md
       - newoutput/coralogix-aws-lambda-telemetry-exporter/index.md
-      - newoutput/archive-retention-policy/index.md
+      - newoutput/cloudwatch-metricstreams-kinesis-data-firehose/index.md
+      - newoutput/amazon-eks-fargate-logs/index.md
+      - newoutput/amazon-eventbridge/index.md
+      - newoutput/amazon-kinesis-data-firehose-metrics/index.md
+      - newoutput/cloudwatch-metric-firehose-delivery-stream/index.md
+      - Kinesis Data Firehose:
+         - newoutput/firehose-cloudtrail-logs/index.md
+         - newoutput/firehose-cloudwatch-logs/index.md
+         - newoutput/firehose-fargate-logs/index.md
+         - newoutput/firehose-metrics/index.md
+         - newoutput/firehose-waf-logs/index.md
     - Azure: 
       - newoutput/introduction-to-microsoft-azure/index.md
       - newoutput/optional-configurations-microsoft-azure/index.md
@@ -156,6 +263,7 @@ nav:
       - newoutput/github-data-ingestion/index.md
       - newoutput/gitlab-data-ingestion/index.md
       - newoutput/bitbucket-version-tags/index.md
+      - newoutput/bitbucket-data-ingestion/index.md
     - Incoming Webhooks:
       - newoutput/generic-incoming-webhooks/index.md
       - newoutput/upguard/index.md
@@ -208,6 +316,7 @@ nav:
       - newoutput/java-opentelemetry-instrumentation/index.md
       - newoutput/capture-opentelemetry-traces-from-your-python-applications/index.md
     - Kubernetes Observability:  
+      - newoutput/introduction-to-kubernetes-observability-using-opentelemetry/index.md
       - newoutput/kubernetes-observability-opentelemetry/index.md
       - newoutput/otel-collector-for-k8s/index.md
       - newoutput/set-up-kubernetes-observability-using-opentelemetry-advanced-configuration/index.md
@@ -215,6 +324,7 @@ nav:
       - newoutput/tail-sampling-with-opentelemetry-using-kubernetes/index.md
       - newoutput/troubleshooting-kubernetes-observability-using-opentelemetry/index.md
       - newoutput/faqs-kubernetes-observability-using-opentelemetry/index.md
+      - newoutput/opentelemetry-using-kubernetes/index.md
     - Monitoring:
       - newoutput/monitor-windows-server-using-otel/index.md
     - Tail Sampling:
