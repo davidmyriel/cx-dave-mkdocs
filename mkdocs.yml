@@ -293,8 +293,8 @@ nav:
 
 plugins:
   - search
-  - open-in-new-tab
-  - glightbox
+  # - open-in-new-tab
+  # - glightbox
 
 theme: 
   name: material
