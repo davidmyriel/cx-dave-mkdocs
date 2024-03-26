@@ -82,7 +82,6 @@
 - newoutput/example/index.md
 
 
-
 - newoutput/firehose-cloudtrail-logs/index.md
 - newoutput/firehose-cloudwatch-logs/index.md
 - newoutput/firehose-fargate-logs/index.md
